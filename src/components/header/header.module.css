@@ -52,8 +52,13 @@
   }
 
   .header__wrap h1 {
-    width: 32.7rem;
     font-size: 4rem;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
   }
 
   .header__wrap .btn_wrap {
@@ -67,14 +72,14 @@
   }
 
   .header__wrapImage .imgBack {
-    left: -30%;
-    top: -30%;
-    width: 100%;
+    left: -50%;
+    top: -60%;
+    width: 63rem;
   }
 
   .header__wrapImage img {
     left: 24px;
     top: -57px;
-    width: 32.7rem;
+    width: 40.7rem;
   }
 }
