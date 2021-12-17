@@ -5,6 +5,7 @@
   background-color: var(--secondary-color);
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer .column_1 {
@@ -117,4 +118,26 @@ h4 a {
 
 .change:hover {
   fill: var(--primary-color);
+}
+
+@media (max-width: 700px) {
+  .footer {
+    padding: 0 2.4rem;
+    height: 51rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  .footer .column_2 ul {
+    padding-left: 0;
+  }
+  .footer .column_3 ul {
+    padding-left: 0;
+  }
+
+  .footer .column_4 div {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
 }

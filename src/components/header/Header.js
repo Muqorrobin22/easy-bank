@@ -16,7 +16,9 @@ function Header() {
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
-        <Button> Request Invite </Button>
+        <div className={style.btn_wrap}>
+          <Button> Request Invite </Button>
+        </div>
         <div className={style.header__wrapImage}>
           <Logo className={style.imgBack} />
           <img src={images} alt={images} />

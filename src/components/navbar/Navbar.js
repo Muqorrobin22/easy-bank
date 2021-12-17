@@ -3,8 +3,11 @@ import { ReactComponent as Logo } from "../../assets/images/logo.svg";
 import Button from "../utils/button/Button";
 import style from "./navbar.module.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Navbar() {
+  const [state, setstate] = useState(false);
+
   return (
     <div className={style.navbar}>
       <Logo />

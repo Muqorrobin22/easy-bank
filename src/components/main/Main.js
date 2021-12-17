@@ -17,26 +17,34 @@ function Main() {
         </p>
       </div>
       <div className={style.card__wrap}>
-        <Card
-          icon={<Icon1 />}
-          title="Online Banking"
-          paragraph="Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world."
-        />
-        <Card
-          icon={<Icon2 />}
-          title="Simple Budgeting"
-          paragraph="See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits."
-        />
-        <Card
-          icon={<Icon3 />}
-          title="Fast Onboarding"
-          paragraph="We don’t do branches. Open your account in minutes online and start taking control of your finances right away."
-        />
-        <Card
-          icon={<Icon4 />}
-          title="Open API"
-          paragraph="Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier."
-        />
+        <div>
+          <Card
+            icon={<Icon1 />}
+            title="Online Banking"
+            paragraph="Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world."
+          />
+        </div>
+        <div>
+          <Card
+            icon={<Icon2 />}
+            title="Simple Budgeting"
+            paragraph="See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits."
+          />
+        </div>
+        <div>
+          <Card
+            icon={<Icon3 />}
+            title="Fast Onboarding"
+            paragraph="We don’t do branches. Open your account in minutes online and start taking control of your finances right away."
+          />
+        </div>
+        <div>
+          <Card
+            icon={<Icon4 />}
+            title="Open API"
+            paragraph="Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier."
+          />
+        </div>
       </div>
     </main>
   );

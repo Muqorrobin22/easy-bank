@@ -41,3 +41,40 @@
   position: absolute;
   z-index: 1;
 }
+
+@media (max-width: 700px) {
+  .header {
+    height: 80vh;
+  }
+  .header__wrap {
+    padding: 33.3rem 2.4rem 0 2.4rem;
+    text-align: center;
+  }
+
+  .header__wrap h1 {
+    width: 32.7rem;
+    font-size: 4rem;
+  }
+
+  .header__wrap .btn_wrap {
+    text-align: center;
+    margin: 0 8rem;
+  }
+
+  .header__wrap p {
+    width: 32.7rem;
+    font-size: 1.5rem;
+  }
+
+  .header__wrapImage .imgBack {
+    left: -30%;
+    top: -30%;
+    width: 100%;
+  }
+
+  .header__wrapImage img {
+    left: 24px;
+    top: -57px;
+    width: 32.7rem;
+  }
+}

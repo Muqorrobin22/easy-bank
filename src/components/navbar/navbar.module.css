@@ -34,3 +34,16 @@
 .navbar ul li a:hover {
   border-bottom: 4px solid var(--primary-color);
 }
+
+@media (max-width: 700px) {
+  .navbar {
+    padding: 0 2.4rem;
+  }
+  .mobile_menu {
+    background: url(../../assets/images/icon-hamburger.svg);
+  }
+
+  .mobile_menu_open {
+    background: url(../../assets/images/icon-close.svg);
+  }
+}

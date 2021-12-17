@@ -16,4 +16,28 @@
 .feed .article_wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .feed {
+    padding: 0 2.4rem;
+    height: 190rem;
+  }
+  .feed h1 {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .feed .article_wrap {
+    justify-content: space-evenly;
+  }
+
+  .feed .article_wrap div {
+    margin-top: 3rem;
+  }
 }
