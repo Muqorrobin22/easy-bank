@@ -4,14 +4,19 @@ import Button from "../utils/button/Button";
 import style from "./navbar.module.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Mobile from "./Mobile";
 
 function Navbar() {
-  const [state, setstate] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMenuOpen((prevState) => !prevState);
+  };
 
   return (
     <div className={style.navbar}>
       <Logo />
-      <ul>
+      <ul className={style.nav_large}>
         <li>
           <Link to="/"> Home </Link>
         </li>
@@ -29,7 +34,21 @@ function Navbar() {
         </li>
       </ul>
 
-      <Button> Request Invite </Button>
+      <div className={style.nav_large}>
+        <Button> Request Invite </Button>
+      </div>
+      {!isMenuOpen ? (
+        <button
+          onClick={toggleMobileMenu}
+          className={style.mobile_menu}
+        ></button>
+      ) : (
+        <button
+          onClick={toggleMobileMenu}
+          className={style.mobile_menu_open}
+        ></button>
+      )}
+      {isMenuOpen && <Mobile />}
     </div>
   );
 }
