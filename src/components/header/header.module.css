@@ -1,0 +1,43 @@
+.header {
+  height: 100vh;
+}
+
+.header__wrap {
+  margin-top: 17rem;
+  padding: 0 20rem;
+}
+
+.header__wrap h1 {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 5.6rem;
+  width: 40rem;
+  letter-spacing: -1;
+}
+
+.header__wrap p {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  letter-spacing: -1;
+  color: var(--tertiary-color);
+  width: 44.7rem;
+  margin: 2.4rem 0 3.6rem 0;
+  line-height: 2.8rem;
+}
+
+.header__wrapImage .imgBack {
+  position: absolute;
+  left: 778px;
+  top: -180px;
+  z-index: -2;
+}
+
+.header__wrapImage img {
+  left: 823px;
+  top: -42px;
+  position: absolute;
+  z-index: 1;
+}

@@ -1,0 +1,19 @@
+.feed {
+  padding: 0 20rem;
+  height: 65.9rem;
+}
+
+.feed h1 {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -1;
+  margin: 8rem 0 4rem 0;
+}
+
+.feed .article_wrap {
+  display: flex;
+  justify-content: space-between;
+}

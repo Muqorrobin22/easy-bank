@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 27.8rem;
+  width: 25.5rem;
+  justify-content: space-around;
+}
+
+.card h3 {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 4rem 0 2.6rem 0;
+}
+
+.card p {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--tertiary-color);
+  width: 25.5rem;
+}

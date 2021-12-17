@@ -1,0 +1,36 @@
+.navbar {
+  height: 8rem;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rem;
+  position: fixed;
+  z-index: 20;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--tertiary-color);
+  padding-bottom: 2.6rem;
+  transition: border 0.2s;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 4px solid var(--primary-color);
+}
